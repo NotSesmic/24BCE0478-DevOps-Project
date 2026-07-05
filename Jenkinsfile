@@ -86,6 +86,12 @@ pipeline {
             }
         }
 
+        stage('Load Image into kind') {
+    steps {
+        sh 'kind load docker-image $IMAGE_NAME:$IMAGE_TAG'
+    }
+}   
+
         stage('Deploy to Kubernetes') {
             steps {
                 echo "Deploying application to Kubernetes..."
