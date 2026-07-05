@@ -20,7 +20,7 @@ spec:
       containers:
         - name: portfolio-website
 
-          image: portfolio-website:latest
+          image: portfolio-website:v1
 
           imagePullPolicy: IfNotPresent
 
