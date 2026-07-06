@@ -14,7 +14,7 @@ pipeline {
                 echo "Checking out source code from GitHub..."
 
                 git branch: 'main',
-                    url: 'https://github.com/NotSesmic/Assignment_2_Online_Portfolio.git'
+                    url: 'https://github.com/NotSesmic/24BCE0478-DevOps-Project.git'
             }
         }
 
